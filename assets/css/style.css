@@ -6,29 +6,55 @@
 body {
     background-color: rgb(197, 139, 117);
 }
+
 header {
     display: flex;
     justify-content: center;
-    text-align: center;
-    /* box-shadow: 0 0 8px 10px; */
-    margin: 2px;
-    padding: 2px;
+    text-align: center; 
+    margin: 0px;
+    padding: 0px;
     border-radius: 8px;
-}
-.header-a {
     color: rgb(0, 0, 0);
-    background-color:cornflowerblue;
-    padding: 2px;
-    margin: 2px;
-    border-radius: 8px;
+    background-color:rgb(123, 136, 161);
     box-shadow: 0 0 5px 2px;
     
+} 
+main {
+    display: inline;
 }
-.btn {
-    width: 9-0%;
-    max-width: 90px;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
+
+#search-input, .btn {
+    position: relative;
+    margin: 2px;
+    border: none;
+    padding: 3px 25px;
+    outline: none;
+    color: #a3aaba;
+    background: linear-gradient(#dbdae1, #a3aaba);
+    box-shadow: 2px 2px 2px #797e88;;
+    inset: 1px 1px 1px  #c0c9dd;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color: rgb(34, 39, 39);
 
 }
+#search-form {
+    display: flex;
+
+}
+
+/* containers */
+#container-playlists {
+    width: 800px;
+    max-width: 300px;
+    background-color:rgb(55, 88, 88);
+    border-radius: 5px;
+}
+#container-tracks {
+    display: flex; 
+    width: 800px;
+    max-width: 300px;
+    background-color:rgb(55, 88, 88);;
+    border-radius: 5px;
+}
+
